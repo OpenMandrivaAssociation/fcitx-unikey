@@ -26,6 +26,7 @@ License: GPLv2
 Group: System/Internationalization
 BuildRequires: cmake
 BuildRequires: pkgconfig(fcitx)
+BuildRequires: pkgconfig(fcitx-qt)
 
 %track
 prog %{name} = {
