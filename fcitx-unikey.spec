@@ -2,7 +2,7 @@
 %define scmrev %{nil}
 
 Name: fcitx-unikey
-Version: 0.2.0
+Version: 0.2.3
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
 Release: 2
