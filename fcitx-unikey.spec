@@ -1,5 +1,6 @@
 %define beta %{nil}
 %define scmrev %{nil}
+%define _disable_ld_no_undefined 1
 
 Name: fcitx-unikey
 Version: 0.2.3
