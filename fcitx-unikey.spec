@@ -59,5 +59,7 @@ Unikey (Vietnamese IM) plugin for fcitx
 %_libdir/fcitx/fcitx-unikey.so
 %_libdir/fcitx/qt/libfcitx-unikey-macro-editor.so
 %_datadir/fcitx/addon/fcitx-unikey.conf
-%_datadir/fcitx/skin/imicon/unikey.png
+%_datadir/fcitx/configdesc/fcitx-unikey.desc
+%_datadir/fcitx/imicon/unikey.png
+%_datadir/fcitx/inputmethod/unikey.conf
 %_datadir/icons/hicolor/256x256/apps/fcitx-unikey.png
