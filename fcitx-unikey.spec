@@ -2,10 +2,10 @@
 %define scmrev %{nil}
 
 Name: fcitx-unikey
-Version: 0.2.0
+Version: 0.2.3
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
-Release: 5
+Release: 1
 Source0: http://fcitx.googlecode.com/files/%{name}-%{version}.tar.xz
 %else
 Release: 0.%{scmrev}.1
