@@ -6,8 +6,8 @@ Name: fcitx-unikey
 Version: 0.2.3
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
-Release: 4
-Source0: http://fcitx.googlecode.com/files/%{name}-%{version}.tar.xz
+Release: 5
+Source0: http://downloads.fcitx-im.org/fcitx-unikey/%{name}-%{version}.tar.xz
 %else
 Release: 0.%{scmrev}.1
 Source0: %{name}-%{scmrev}.tar.xz
@@ -22,7 +22,7 @@ Source0: %{name}-%{scmrev}.tar.xz
 %endif
 %endif
 Summary: Unikey (Vietnamese IM) plugin for fcitx
-URL: http://fcitx.googlecode.com/
+URL: http://www.fcitx-im.org/
 License: GPLv2
 Group: System/Internationalization
 BuildRequires: cmake
@@ -32,7 +32,7 @@ BuildRequires: fcitx-qt4
 
 %track
 prog %{name} = {
-	url = http://code.google.com/p/fcitx/downloads/list
+	url = http://downloads.fcitx-im.org/fcitx-unikey
 	regex = %name-(__VER__)\.tar\.xz
 	version = %{version}
 }
