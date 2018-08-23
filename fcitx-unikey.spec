@@ -10,6 +10,10 @@ License: GPLv2
 Group: System/Internationalization
 BuildRequires: cmake
 BuildRequires: pkgconfig(fcitx)
+BuildRequires: cmake(ECM)
+BuildRequires: cmake(Qt5Core)
+BuildRequires: cmake(Qt5Gui)
+BuildRequires: cmake(Qt5Widgets)
 
 %description
 Unikey (Vietnamese IM) plugin for fcitx.
