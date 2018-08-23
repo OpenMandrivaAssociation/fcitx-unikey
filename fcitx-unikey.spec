@@ -14,6 +14,7 @@ BuildRequires: cmake(ECM)
 BuildRequires: cmake(Qt5Core)
 BuildRequires: cmake(Qt5Gui)
 BuildRequires: cmake(Qt5Widgets)
+BuildRequires: cmake(FcitxQt5WidgetsAddons)
 
 %description
 Unikey (Vietnamese IM) plugin for fcitx.
