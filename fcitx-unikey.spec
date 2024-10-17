@@ -5,7 +5,7 @@ Name: fcitx-unikey
 Version: 0.2.7
 Release: 3
 Source0: https://github.com/fcitx/fcitx-unikey/archive/%{version}.tar.gz
-URL: http://www.fcitx-im.org/
+URL: https://www.fcitx-im.org/
 License: GPLv2
 Group: System/Internationalization
 BuildRequires: cmake
